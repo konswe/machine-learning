@@ -10,7 +10,7 @@ data=pd.read_csv("student-mat.csv", sep=";")
 data = data[["G1", "G2", "G3", "studytime", "failures", "absences"]]
 
 predict = "G3"
-
+#testtest
 X = np.array(data.drop([predict], 1))
 y = np.array(data[predict])
 
